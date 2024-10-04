@@ -1,10 +1,10 @@
 package main
 
-import "context"
+// import "context"
 
 func main() {
-	store := NewStore()
-	svc := NewService(store)
+	// store := NewStore()
+	// svc := NewService(store)
 
-	svc.CreateOrder(context.Background())
+	// svc.CreateOrder(context.Background())
 }
